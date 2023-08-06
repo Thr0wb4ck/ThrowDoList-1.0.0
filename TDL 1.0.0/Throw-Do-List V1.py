@@ -120,7 +120,7 @@ resulttable.pack(pady=10)
 for h in header:
     resulttable.heading(h,text=h,anchor=tk.CENTER)
 
-headerwidth = [55,380] 
+headerwidth = [56,380] 
 for h,w in zip(header,headerwidth):
     resulttable.column(h,width=w,anchor=tk.CENTER)
 
